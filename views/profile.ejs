@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your WriteStuff Profile</title>
+    <link rel="stylesheet" href="../profilestyles.css" />
+</head>
+<body>
+    <nav class = 'navbar'>
+        
+        <div class = 'navtitle'>WriteStuff</div>
+        <div class = 'navitem' >
+            <input type="text" class="searchbox" name="search" placeholder="Search for articles">
+            <button type="submit" class="searchButton">GO
+            </button>
+            <a href = "../feed"><button class = "btn">Feed</button></a>
+
+            <a href="/"><button class = "btn">LogOut</button></a>
+        </div>
+                
+    </nav>
+
+    <p>Hello, <%= name %> !!</p>    
+    <div class="details">
+
+        <p>Your Username: </p>
+        <p>Number of articles: </p>
+        <p>Followers: </p>
+        <p>Following: </p>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Article</title>
+    <link rel="stylesheet" href="articlestyles.css">
+</head>
+<body>
+    <nav class = 'navbar'>
+        
+        <div class = 'navtitle'>WriteStuff</div>
+        <div class = 'navitem' >
+            <input type="text" class="searchbox" name="search" placeholder="Search for articles">
+            <button type="submit" class="searchButton">GO
+            </button>
+            <a href = "../feed"><button class = "btn">Feed</button></a>
+
+            <a href="/"><button class = "btn">LogOut</button></a>
+        </div>
+                
+    </nav>
+
+    <p class = 'intro'>Give wings to your thoughts...</p>
+    <br>
+    <p>TITLE:</p>
+    <textarea class = 'title' placeholder = 'Enter Title' name = 'title' rows= 1 wrap="off"></textarea>
+
+    <p>DESCRIPTION:</p>
+    <textarea class = 'desc' placeholder = 'Enter a short description' name = 'desc' rows= 2></textarea>
+
+    <p>BODY:</p>
+    <textarea class = 'body' placeholder="Enter the body of your article.." name="body" rows = 75></textarea>
+    <br>
+    <button class = 'submitbtn btn'>SUBMIT</button>
+
+</body>
+</html>
